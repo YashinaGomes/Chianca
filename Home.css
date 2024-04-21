@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+body {
+    background-color: #C3AC74;
+    /* Cor de fundo desejada */
+    margin: 0;
+    /* Remover margens padrão */
+    padding: 0;
+    /* Remover preenchimento padrão */
+}
+
+
+header {
+    width: 1478px;
+    height: 30px;
+    background: rgba(18, 18, 18, 0.92);
+    font-family: "Kumbh Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.2rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: #C5AC73;
+    font-family: "Kumbh Sans";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    margin: 0 50px;
+    transition: color 0.3s;
+    /* Adicionando transição para a cor */
+}
+
+nav a:hover {
+    color: #c5ad7394;
+    /* Mudar a cor ao passar o mouse */
+}
+
+.servicos-container {
+    position: relative;
+}
+
+.servicos-dropdown {
+    color: #C5AC73;
+    font-family: "Kumbh Sans";
+    font-size: 17px;
+    /* Ajuste o tamanho da fonte conforme necessário */
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    transition: color 0.3s;
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 5px;
+    /* Ajuste a margem esquerda conforme necessário */
+}
+
+.servicos-dropdown:hover {
+    color: #c5ad7394;
+    /* Mudar a cor ao passar o mouse */
+}
+
+
+.servicos-options {
+    display: none;
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    z-index: 1;
+    background-color: #1E1E1E;
+    color: #C5AC73;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Kumbh Sans";
+    font-size: 14px !important;
+    /* Adicionando !important */
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 20px;
+    border-radius: 4px;
+    width: 550px;
+    /* Ajuste a largura conforme necessário */
+}
+
+
+.servicos-options li {
+    margin: 5px 0;
+    cursor: pointer;
+    text-align: left;
+    /* Alinhar o texto à esquerda */
+    list-style: none;
+    /* Remover marcadores de lista */
+    transition: color 0.3s;
+    /* Adicionando transição para a cor */
+}
+
+/* Estilo para o ponto antes de cada opção */
+.servicos-options li::before {
+    content: "\2022";
+    /* Código Unicode para o ponto */
+    margin-right: -2rem;
+    /* Espaçamento entre o ponto e o texto */
+}
+
+.servicos-options li:hover {
+    color: #c5ad7394;
+    /* Mudar a cor ao passar o mouse */
+}
+
+#Pesquisa {
+    width: 240px;
+    height: 42px;
+    border: 2px solid #1E1E1E;
+    background: #1E1E1E;
+    box-shadow: -1px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+    background-image: url('public/images/search.png');
+    background-size: 20px;
+    background-position: right 10px;
+    background-repeat: no-repeat;
+    margin-left: -50px;
+    /* Ajuste a margem esquerda conforme necessário */
+}
+
+
+::placeholder {
+    color: rgba(197, 173, 115, 0.497);
+    font-family: "Kumbh Sans";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Capa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Capa img {
+    width: 1520px;
+    height: 694px;
+}
+
+.MarteloCapa {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.MarteloCapa img {
+    width: 957px;
+    /* Ajuste a largura conforme necessário */
+    height: 694px;
+    /* Ajuste a altura conforme necessário */
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 4.6rem;
+}
+
+.ChiancaNome {
+    width: 673px;
+    /* Ajuste a largura conforme necessário */
+    height: 239px;
+    /* Ajuste a altura conforme necessário */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 18rem;
+    margin-left: -60rem;
+}
+
+.ChiancaNome img {
+    max-width: 100%;
+    /* Garante que a imagem não ultrapasse o contêiner */
+    max-height: 100%;
+    /* Garante que a imagem não ultrapasse o contêiner */
+    width: auto;
+    /* Permite que a largura da imagem seja ajustada automaticamente */
+    height: auto;
+    /* Permite que a altura da imagem seja ajustada automaticamente */
+}
+
+.Sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Sobre img {
+    width: 1520px;
+    height: 694px;
+}
+
+.SobreTexto {
+    width: 785px;
+    height: 189px;
+    margin-top: -35rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+}
+
+.SobreAdvogado {
+    width: 740px;
+    height: 162px;
+    margin-left: 2rem;
+
+}
+
+
+.SobreTexto p,
+.SobreAdvogado p {
+    color: #C5AC73;
+    font-family: "Kumbh Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.SobreTexto span,
+.SobreAdvogado span {
+    color: #C5AC73;
+    font-family: "Kumbh Sans";
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+
+}
+
+.InfoHome {
+    display: flex;
+    justify-content: space-between;
+    background: #C5AC73;
+    position: absolute;
+    
+}
+
+.InfoHome div {
+    text-align: center;
+    margin-top: -39rem;
+    margin-left: 6rem;
+     
+    
+
+}
+
+.InfoHome img {
+    width: 221px;
+    height: auto;
+    /* Mantém a proporção da imagem */
+    
+}
+
+.InfoHome p {
+    color: rgba(36, 36, 36, 0.99);
+    font-family: "Kumbh Sans";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: -9rem;
+    margin-bottom: 1rem;
+    /* Ajustado o margin-top para um valor positivo */
+
+
+}
+
+.InfoHome span {
+    color: #1E1E1E;
+    font-family: "Kumbh Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.AdvAssinando {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Adv img {
+    width: 999px;
+    height: 668px;
+    margin-top: 9rem;
+
+}
+
+.Sombra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Sombra img {
+    width: 999px;
+    height: 668px;
+    margin-top: -42.3rem;
+    margin-left: -33rem;
+    position: absolute;
+
+}
+
+.Retangulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Retangulo img {
+    width: 530px;
+    height: 668px;
+    margin-top: -42.3rem;
+    margin-left: 62.1rem; /* Aumente o valor negativo para mover mais para a esquerda */
+}
+
+.ChiancaNome2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ChiancaNome2 img {
+    margin-top: -42.3rem;
+    margin-left: 62.1rem; /* Aumente o valor negativo para mover mais para a esquerda */
+}
