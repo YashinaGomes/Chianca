@@ -258,23 +258,21 @@ nav a:hover {
     justify-content: space-between;
     background: #C5AC73;
     position: absolute;
-    
+    margin-left: 25rem;
 }
 
 .InfoHome div {
     text-align: center;
-    margin-top: -39rem;
+    margin-top: -40rem;
     margin-left: 6rem;
-     
-    
 
 }
 
 .InfoHome img {
-    width: 221px;
+    width: 251px;
     height: auto;
     /* Mantém a proporção da imagem */
-    
+
 }
 
 .InfoHome p {
@@ -341,7 +339,8 @@ nav a:hover {
     width: 530px;
     height: 668px;
     margin-top: -42.3rem;
-    margin-left: 62.1rem; /* Aumente o valor negativo para mover mais para a esquerda */
+    margin-left: 62.1rem;
+    /* Aumente o valor negativo para mover mais para a esquerda */
 }
 
 .ChiancaNome2 {
@@ -352,5 +351,87 @@ nav a:hover {
 
 .ChiancaNome2 img {
     margin-top: -42.3rem;
-    margin-left: 62.1rem; /* Aumente o valor negativo para mover mais para a esquerda */
+    margin-left: 62.1rem;
+    /* Aumente o valor negativo para mover mais para a esquerda */
+}
+
+
+.Fundo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Fundo img {
+    width: 1542px;
+    height: 910px;
+
+}
+
+.Logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -55rem;
+
+}
+
+.Logo img {
+    width: 402px;
+    height: 438px;
+
+}
+
+.Cards {
+    display: flex;
+    justify-content: center;
+    /* Centraliza os cards horizontalmente */
+    position: relative;
+    flex-wrap: wrap;
+    /* Permite que os cards se ajustem à largura do contêiner */
+    margin-top: 4rem;
+    /* Adicionei uma margem superior para mover os cards para baixo */
+}
+
+
+.Card {
+    text-align: center;
+    background: #C5AC73;
+    width: 297px;
+    height: 242px;
+    margin-right: 10rem;
+    /* Adiciona um espaçamento entre os cards */
+  
+}
+
+.Card:last-child {
+    margin-right: 1rem;
+    /* Ajusta a margem do último card à direita */
+}
+
+.CardContent p {
+    color: #C5AC73;
+    font-family: "Kumbh Sans";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    background-color: rgba(36, 36, 36, 0.99);
+    border: 1px solid #A48C5C;
+    width: 297px;
+    height: 52px;
+    margin-top:-3rem ;
+    padding: 10px;
+    box-sizing: border-box;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical
+}
+
+.CardContent span {
+    color: #1E1E1E;
+    font-family: "Kumbh Sans";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: normal;
 }

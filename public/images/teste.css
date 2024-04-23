@@ -1,0 +1,52 @@
+.Cards {
+    display: flex;
+    justify-content: center;
+    /* Centraliza os cards horizontalmente */
+    position: relative;
+    flex-wrap: wrap;
+    /* Permite que os cards se ajustem à largura do contêiner */
+}
+
+.Card {
+    text-align: center;
+    background: #C5AC73;
+    width: 297px;
+    height: 250px;
+    margin-right: 90px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.CardContent {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: -1px;
+}
+
+.CardContent p {
+    color: #C5AC73;
+    text-align: center;
+    font-family: "Kumbh Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 297px;
+    height: 48px;
+    background-color: rgba(36, 36, 36, 0.99);
+    border: 1px solid #A48C5C;
+    margin: 0;
+    margin-bottom: 45px;
+}
+
+.CardContent span {
+    color: #1E1E1E;
+    font-family: "Kumbh Sans";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.51px;
+    margin-bottom: 5px;
+}
